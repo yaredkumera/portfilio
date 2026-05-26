@@ -325,7 +325,7 @@ ameteMhiret = Integer.parseInt(JOptionPane.showInputDialog(
     "  -- Metqi (Timkat period)\n" +
     "  -- Nineveh fasting dates  \n" +
     "  -- Abiy Tsom - Great Lent start\n" +
-    "  -- Easter date - Fasika  \n\n" +
+    "  - Easter date - Fasika  \n\n" +
     "Example: type 2016 for Ethiopian year 2016 E.C\n" +
     "Type  -1  to exit the program.",
     "Ethiopian Calendar System"
