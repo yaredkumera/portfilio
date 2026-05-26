@@ -316,8 +316,21 @@ public class ModernizedEthiopianCalendarSystem {
         
         
         int yearsBeforeBirthOfChrist=5500;
-           ameteMhiret=Integer.parseInt(JOptionPane.showInputDialog("enter the year you want to know its fasting and celebrations in Ethiopian orthodox tewahdo church OR  '-1' to exit"));
-           if(ameteMhiret==-1){
+ameteMhiret = Integer.parseInt(JOptionPane.showInputDialog(
+    null,
+        
+    "ETHIOPIAN ORTHODOX CALENDAR SYSTEM (Bahire Hasab)\n"+
+    "Enter an Ethiopian year (Amete Mihret) to calculate:\n" +
+    "  -- New Year day of the week\n" +
+    "  -- Metqi (Timkat period)\n" +
+    "  -- Nineveh fasting dates  \n" +
+    "  -- Abiy Tsom - Great Lent start\n" +
+    "  -- Easter date - Fasika  \n\n" +
+    "Example: type 2016 for Ethiopian year 2016 E.C\n" +
+    "Type  -1  to exit the program.",
+    "Ethiopian Calendar System"
+    ,JOptionPane.QUESTION_MESSAGE
+));           if(ameteMhiret==-1){
                return;
            }
                   ameteAlem=yearsBeforeBirthOfChrist+ameteMhiret;//amete alem
